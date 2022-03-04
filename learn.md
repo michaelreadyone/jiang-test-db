@@ -9,7 +9,9 @@ export FLASK_ENV=development
 export FLASK_APP=src
 ```
 
-## Databse and models set up
+## Database and models set up
+
+`pip install SQLAlchemy`
 
 init database in shell
 
@@ -22,3 +24,6 @@ flask shell
 >>> db.drop_all()
 >>> db.create_all()
 ```
+
+## user registration
+`pip install validators`
